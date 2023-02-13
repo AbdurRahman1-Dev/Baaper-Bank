@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+      <h1 class="text-center text-5xl font-semibold py-8">Your Baap er Bank e <span class="text-orange-500 underline">Status</span></h1>
+    </header>
+
+    <main class= "mx-auto w-9/12">
+
+      <div class="grid-cols-3 grid gap-5">
+      <div class=" bg-orange-400 p-6 rounded-lg">
+        <h2 class="text-4xl font-semibold text-orange-100">Deposite</h2>
+
+        <h3 class="text-6xl text-white">$ <span id="deposite-amount">00</span></h3>
+      </div>
+
+      <div class=" bg-sky-500 p-6 rounded-lg">
+        <h2 class="text-4xl font-semibold text-orange-100">Widrow</h2>
+
+        <h3 class="text-6xl text-white">$ <span id="widrow">00</span></h3>
+      </div>
+
+      <div class=" bg-red-400 p-6 rounded-lg">
+        <h2 class="text-4xl font-semibold text-orange-100">Total Amount</h2>
+
+        <h3 class="text-6xl text-white">$ <span id="total-amount">1200</span></h3>
+      </div>
+      </div>
+
+
+      
+
+      <div class="grid-cols-2 grid gap-5 mt-10">
+        <div class=" bg-emerald-400 p-6 rounded-lg">
+          <h2 class="text-4xl font-semibold text-orange-100">Deposite</h2>
+          <input class="block w-9/12 p-3 mt-4 rounded-md" type="number" placeholder="Deposite" id="deposite">
+       
+          <button class="bg-green-700 px-8 mt-3 rounded-lg py-3 font-semibold text-orange-100" id="deposite-btn">Submit</button>
+        </div>
+
+        <div class=" bg-blue-400 p-6 rounded-lg">
+          <h2 class="text-4xl font-semibold text-orange-100">Widrow</h2>
+          <input class="block w-9/12 p-3 mt-4 rounded-md" type="text" placeholder="widrow" id="widrow-input">
+       
+          <button class="bg-blue-600 px-8 mt-3 rounded-lg py-3 font-semibold text-orange-100" id="widrow-btn">Submit</button>
+        </div>
+      
+    </main>
+    <script src="bank.js"></script>
+</body>
+</html>
