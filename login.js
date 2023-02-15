@@ -14,7 +14,7 @@ document.getElementById('login-btn').addEventListener("click",function(){
   // condition
 
     if(userEmailValue == "bank@gmail.com" && userPasswoardValue == "Bank123"){
-      window.location.href = "http://127.0.0.1:5500/bank.html"
+      window.location.href = "https://abdurrahman1-dev.github.io/Baaper-Bank/bank.html"
     } else{
       alert("Provide Valid Info")
     }
